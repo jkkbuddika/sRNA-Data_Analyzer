@@ -4,14 +4,14 @@ The current version of sRNA-Seq data analyzer contain a series of python based m
 ## Requirements
 The sRNA-seq data analyzer requires following tools to be installed (see [here](https://github.com/jkkbuddika/sRNA-Data_Analyzer/blob/master/USERGUIDE.md#step-2-setup-the-miniconda-environment)) for data analysis.
 
-- [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-- [Cutadapt](https://cutadapt.readthedocs.io/en/stable/)
-- [Bowtie](https://github.com/BenLangmead/bowtie)
-- [ShortStack](https://github.com/MikeAxtell/ShortStack)
-- [SAMtools](https://github.com/samtools/samtools)
-- [deepTools](https://github.com/deeptools/deepTools/)
-- [featureCounts](http://subread.sourceforge.net/)
-- [MultiQC](https://github.com/ewels/MultiQC)
+- [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) : Raw sequence quality assessment
+- [Cutadapt](https://cutadapt.readthedocs.io/en/stable/) : Adaptor trimming
+- [Bowtie](https://github.com/BenLangmead/bowtie) : Mapping reads to a given genome
+- [ShortStack](https://github.com/MikeAxtell/ShortStack) : Predict/identify novel/known small RNAs
+- [SAMtools](https://github.com/samtools/samtools) : Sorting, filtering and indexing of mapped reads
+- [deepTools](https://github.com/deeptools/deepTools/) : Generate bigwig files for IGV visualization
+- [featureCounts](http://subread.sourceforge.net/) : Count miRNAs
+- [MultiQC](https://github.com/ewels/MultiQC) : Summarize logs
 
 We thank developers of these valueble tools!
 
