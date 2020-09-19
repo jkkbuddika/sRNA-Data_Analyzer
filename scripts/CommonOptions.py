@@ -48,7 +48,8 @@ class CommonOptions:
     genes_gtf = feature_dir + os.path.splitext(feature_file)[0]
 
     ## Alignment Variables
-
+    if eval(gv.bt_parameter) == 'default': bt_parameter = ''
+    else: bt_parameter = eval(gv.bt_parameter)
     bt_index = home_dir + 'bt_index/'
     bt_aligned = home_dir + 'bt_aligned/'
     shortstack_aligned = home_dir + 'shortstack_aligned/'
